@@ -10,13 +10,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="16dp"
-        android:background="@android:color/white"
+        android:background="#FFFFFF"
         android:elevation="4dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="📊 Scan History"
+            android:text="Scan History"
             android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="#333333" />
@@ -25,7 +25,7 @@
             android:id="@+id/tvStats"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Total: 0 | Synced: 0 | Pending: 0"
+            android:text="Total: 0, Synced: 0, Pending: 0"
             android:textSize="13sp"
             android:textColor="#757575"
             android:layout_marginTop="4dp" />
@@ -41,7 +41,7 @@
                 android:layout_width="0dp"
                 android:layout_height="40dp"
                 android:layout_weight="1"
-                android:text="🔄 Sync All Pending"
+                android:text="Sync All Pending"
                 android:textSize="12sp"
                 android:textColor="#1976D2"
                 android:backgroundTint="#E3F2FD"
@@ -53,7 +53,7 @@
                 android:layout_width="0dp"
                 android:layout_height="40dp"
                 android:layout_weight="1"
-                android:text="🗑️ Clear History"
+                android:text="Clear History"
                 android:textSize="12sp"
                 android:textColor="#F44336"
                 android:backgroundTint="#FFEBEE"
@@ -67,7 +67,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="No scan history yet.\nStart scanning to see records here."
+        android:text="No scan history yet. Start scanning to see records here."
         android:textSize="16sp"
         android:textColor="#9E9E9E"
         android:visibility="gone" />
