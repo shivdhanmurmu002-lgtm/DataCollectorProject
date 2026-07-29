@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-        <!-- Overlay -->
+        <!-- Overlay Status Bar -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Point camera at text and tap Capture"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="13sp" />
 
             <TextView
@@ -51,9 +51,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:visibility="gone"
-            android:indeterminateTint="@android:color/white" />
+            android:indeterminateTint="#FFFFFF" />
 
-        <!-- Capture Button -->
+        <!-- Capture Button Row -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -66,9 +66,9 @@
                 android:id="@+id/btnManualEntry"
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
-                android:text="✏️ Manual"
+                android:text="Manual"
                 android:textSize="12sp"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:backgroundTint="#616161"
                 android:textAllCaps="false"
                 android:layout_marginEnd="8dp" />
@@ -78,9 +78,9 @@
                 android:layout_width="0dp"
                 android:layout_height="56dp"
                 android:layout_weight="1"
-                android:text="📸 CAPTURE & SCAN"
+                android:text="CAPTURE AND SCAN"
                 android:textSize="16sp"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:backgroundTint="#1976D2"
                 android:textAllCaps="false" />
 
@@ -88,9 +88,9 @@
                 android:id="@+id/btnReScan"
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
-                android:text="🔄 Re-scan"
+                android:text="Re-scan"
                 android:textSize="12sp"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:backgroundTint="#616161"
                 android:textAllCaps="false"
                 android:layout_marginStart="8dp" />
@@ -104,10 +104,10 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:background="@android:color/white"
+        android:background="#FFFFFF"
         android:visibility="gone">
 
-        <!-- Raw Text (collapsible) -->
+        <!-- Raw Text Preview -->
         <TextView
             android:id="@+id/tvRawText"
             android:layout_width="match_parent"
@@ -142,9 +142,9 @@
             android:layout_width="match_parent"
             android:layout_height="52dp"
             android:layout_margin="12dp"
-            android:text="📤 SEND TO GOOGLE SHEET"
+            android:text="SEND TO GOOGLE SHEET"
             android:textSize="16sp"
-            android:textColor="@android:color/white"
+            android:textColor="#FFFFFF"
             android:backgroundTint="#4CAF50"
             android:textAllCaps="false" />
 
