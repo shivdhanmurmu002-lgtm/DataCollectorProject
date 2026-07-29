@@ -23,13 +23,27 @@ jobs:
     - name: 🔧 Setup Android SDK
       uses: android-actions/setup-android@v3
     
-    - name: 📦 Setup Gradle
+    - name: 📦 Setup Gradle 8.2 (Fixed Version)
       uses: gradle/actions/setup-gradle@v3
+      with:
+        gradle-version: 8.2
     
     - name: 🔨 Create Gradle Wrapper
       run: |
-        gradle wrapper --gradle-version 8.2
+        gradle wrapper --gradle-version 8.2 --distribution-type all
         chmod +x gradlew
+        ls -la
+    
+    - name: 📋 Verify Setup
+      run: |
+        echo "Java version:"
+        java -version
+        echo ""
+        echo "Gradle version:"
+        ./gradlew --version
+        echo ""
+        echo "Files in project:"
+        ls -la
     
     - name: 🏗️ Build Debug APK
       run: ./gradlew assembleDebug --stacktrace --no-daemon
