@@ -10,13 +10,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="16dp"
-        android:background="@android:color/white"
+        android:background="#FFFFFF"
         android:elevation="4dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="📋 Select Data Fields"
+            android:text="Select Data Fields"
             android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="#333333" />
@@ -73,9 +73,9 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_margin="16dp"
-        android:text="💾 Save Selected Fields"
+        android:text="Save Selected Fields"
         android:textSize="16sp"
-        android:textColor="@android:color/white"
+        android:textColor="#FFFFFF"
         android:backgroundTint="#4CAF50"
         android:textAllCaps="false" />
 
