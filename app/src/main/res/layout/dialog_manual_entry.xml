@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paste or type the text data below:"
+        android:textSize="14sp"
+        android:textColor="#555555" />
+
+    <EditText
+        android:id="@+id/etManualText"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="12dp"
+        android:gravity="top|start"
+        android:inputType="textMultiLine"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"
+        android:hint="Example:\nSerial Number: ABC123\nModel: XYZ-456\nDate: 2024-01-15"
+        android:textSize="14sp" />
+
+</LinearLayout>
